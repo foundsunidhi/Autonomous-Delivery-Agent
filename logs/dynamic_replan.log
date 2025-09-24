@@ -1,0 +1,6 @@
+[23:23:30] Initial plan: length=28, cost=27
+[23:23:30] Obstacle appeared at (0, 4)
+[23:23:30] Next cell (0, 4) blocked, replanning...
+[23:23:30] Replan success: length=25, cost=24
+[23:23:30] Obstacle appeared at (0, 4)
+[23:23:30] Reached goal.

@@ -1,0 +1,17 @@
+map,algo,path_len,cost,nodes,time
+small.txt,bfs,18,17,89,0.0
+small.txt,ucs,18,17,279,0.0015060901641845703
+small.txt,astar,18,17,100,0.0
+small.txt,hill,18,17,18,0.0
+medium.txt,bfs,39,38,230,0.0
+medium.txt,ucs,39,38,691,0.0010268688201904297
+medium.txt,astar,39,38,196,0.0010035037994384766
+medium.txt,hill,39,38,39,0.0
+large.txt,bfs,59,58,849,0.0010066032409667969
+large.txt,ucs,59,58,3074,0.0030274391174316406
+large.txt,astar,59,58,1349,0.0045049190521240234
+large.txt,hill,59,58,59,0.0
+dynamic.txt,bfs,28,27,200,0.0
+dynamic.txt,ucs,28,27,673,0.0
+dynamic.txt,astar,28,27,293,0.0010504722595214844
+dynamic.txt,hill,28,27,28,0.0
