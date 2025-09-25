@@ -1,6 +1,6 @@
 # Autonomous Delivery Agent — Project 1
 
-**Course:** CSA2001 — Fundamentals of AI and ML
+**Course:** CSA2001 — Fundamentals of AI and ML,
 **Project Type:** Project-Based Learning
 
 ---
