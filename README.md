@@ -85,24 +85,16 @@ pip install -r requirements.txt
 
 ```bash
 # Example: BFS
-python planners/bfs.py --map maps/map_small.grid --start 0,0 --goal 4,2 --log logs/bfs_small.log
+python src\main.py --map maps\small.txt --algo bfs
 
-# Example: A* with Manhattan heuristic
-python planners/astar.py --map maps/map_large.grid --start 0,0 --goal 14,14 --heuristic manhattan --log logs/astar_large.log
-```
+# Example: UCS
+python src\main.py --map\medium.txt --algo ucs
 
-### 3. Dynamic Replanning Example
+# Example: Local Search
+python src\main.py --map\dynamic.txt --algo hill
 
-```bash
-python sim/simulator.py --map maps/map_dynamic.grid --planner astar --inject-obstacle 5,10,3 --log logs/dynamic_demo.log
-```
-
-The log file will show when an obstacle appears and how the agent replans.
-
-### 4. Run Experiments
-
-```bash
-python tests/run_experiments.py --out results/experiment_results.csv
+# Example: A* 
+python src\main.py --map\large.txt --algo astar
 ```
 
 ---
